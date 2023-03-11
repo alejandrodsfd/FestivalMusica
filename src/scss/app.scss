@@ -1,0 +1,7 @@
+// forma antigua de llamar los archivos secundarios
+// @import 'base/variables';
+// @import 'contenido/contenido';
+
+// Forma nueva
+@use 'base';
+@use 'layout';
