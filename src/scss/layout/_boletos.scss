@@ -1,0 +1,61 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.boletos {
+    background-color: v.$verde;
+
+    h3 {
+        padding-top: 5rem;
+        margin-bottom: 2rem;
+    }
+
+    h3,
+    p {
+        text-align: center;
+        color: v.$blanco
+    }
+}
+
+.contenedor-boletos {
+    @include m.grid(2, 2rem);
+    padding-bottom: 5rem;
+
+    p {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .pase-dia {
+        font-size: 2.5rem;
+    }
+
+    .pase-body {
+        @include m.resetear-lista;
+        background-color: v.$blanco;
+        font-size: 1.5rem;
+        font-weight: 700;
+
+        .borde {
+            border-bottom: 1px solid v.$gris;
+            padding: 2rem;
+        }
+
+        .borde:last-of-type {
+            border: none;
+        }
+    }
+
+    .pase-header {
+        background-color: v.$rosa;
+        padding: 1rem;
+
+        p {
+            @include m.resetear-lista;
+            text-transform: uppercase;
+        }
+    }
+
+    .pase-footer {
+        background-color: v.$morado;
+    }
+}
