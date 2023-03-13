@@ -1,0 +1,29 @@
+@use '../base/mixins' as m;
+@use '../base/variables' as v;
+
+.galeria {
+    padding: 5rem 0;
+
+    h3 {
+        text-align: center;
+    }
+
+}
+
+.galeria-imagenes {
+    @include m.resetear-lista;
+    padding: 0;
+    @include m.grid(2, 2rem);
+
+    @include m.tablet {
+        @include m.grid(3, 2rem)
+    }
+
+    @include m.desktop {
+        @include m.grid(4, 2rem)
+    }
+
+    @include m.desktopXL {
+        @include m.grid(6, 2rem)
+    }
+}
