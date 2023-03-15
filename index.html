@@ -11,17 +11,18 @@
     <link rel="stylesheet" href="build/css/app.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <div class="contenedor contenido-header">
-            <h1> Rock & EDM Festival </h1>
-            <nav class="navegacion-principal">
-                <a href="#">Line Up</a>
-                <a href="#">Galería</a>
-                <a href="#">Boletos</a>
+            <a href="#"><h1>Rock & EDM Festival</h1></a> 
+                
+            <nav class="navegacion-principal enlace">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galería</a>
+                <a href="#boletos">Boletos</a>
             </nav>
         </div>
     </header>
-    <div class="video">
+    <div class="video" >
         <div class="overlay">
             <div class="contenedor  contenido-video">
                 <h2>Rock & EDM Festival</h2>
@@ -55,7 +56,7 @@
             </p>
         </div>
     </section>
-    <section class="lineup">
+    <section class="lineup" id="lineup">
         <h3>Line Up</h3>
         
         <p class="dia">Viernes 21</p>
@@ -168,12 +169,12 @@
     </section>
 
 
-    <section class="galeria contenedor">
+    <section class="galeria contenedor" id="galeria">
         <h3>galeria</h3>
     <ul class="galeria-imagenes"></ul>
     </section>
 
-    <section class="boletos">
+    <section class="boletos" id="boletos">
         <h3>Boletos</h3>
         <div class="contenedor contenedor-boletos">
             <div class="basico pase">
@@ -220,6 +221,6 @@
             Rock & EDM Festival. Todos Los Derechos Reservados. 
         </p>
     </footer>
-    <script src="build/js/galeria.js"></script>
+    <script src="build/js/app.js"></script>
 </body>
 </html>
