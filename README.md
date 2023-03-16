@@ -6,7 +6,7 @@ Esta es una pagina web con informacion de un de un festival de Rock.
 [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white&labelColor=101010)]()
 [![BEM](https://img.shields.io/badge/BEM-000000?style=for-the-badge&logo=BEM&logoColor=white&labelColor=101010)]()
 
-</br>
+
 ## Visualizacion de pagina web
 [![html](https://cdn.icon-icons.com/icons2/561/PNG/96/website-design-symbol-1_icon-icons.com_53804.png)](https://alejandrodsfd.github.io/FestivalMusica/)
 </br>
