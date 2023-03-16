@@ -5,6 +5,7 @@ Esta es una pagina web con informacion de un de un festival de Rock.
 [![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=CSS3&logoColor=white&labelColor=101010)]()
 [![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=Sass&logoColor=white&labelColor=101010)]()
 [![BEM](https://img.shields.io/badge/BEM-000000?style=for-the-badge&logo=BEM&logoColor=white&labelColor=101010)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white&labelColor=101010)]()
 
 
 ## Visualizacion de pagina web
