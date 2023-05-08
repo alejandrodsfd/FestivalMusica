@@ -1,4 +1,4 @@
-# Descripción: FestivalMusica
+# Descripción: Festival Musical
 Este proyecto es un sitio web desarrollado en HTML, CSS, SASS, BEM y JavaScript que tiene como objetivo brindar información sobre un festival de rock y música electrónica. El sitio web cuenta con varias secciones, incluyendo una página de inicio, una sección de artistas y horarios, una sección de fotos del festival y una sección de boleteria.
 
 La estructura del sitio web se basa en el modelo de diseño BEM (Block, Element, Modifier), lo que hace que el código sea fácil de entender y mantener. Además, se ha utilizado SASS para escribir hojas de estilo más legibles y eficientes.
